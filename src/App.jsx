@@ -21,7 +21,7 @@ function App() {
       <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
         <div className="container mx-auto px-4">
           <h1 className="text-5xl font-bold mb-6">UK IT Solutions</h1>
-          <p className="text-xl mb-8">Your Trusted Partner for IT Solutions and Project Development</p>
+          <p className="text-xl mb-8">Complete IT Solutions for Business Growth and Innovation</p>
           <button className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">
             Get Started
           </button>
@@ -33,16 +33,58 @@ function App() {
         <h2 className="text-3xl font-bold text-center mb-12">Our Services</h2>
         <div className="grid md:grid-cols-3 gap-8">
           <div className="bg-white p-6 rounded-lg shadow-lg">
-            <h3 className="text-xl font-semibold mb-4">Freelance Projects</h3>
-            <p className="text-gray-600">Expert development services for your freelance projects with quick turnaround times.</p>
+            <h3 className="text-xl font-semibold mb-4">Mobile App Development</h3>
+            <ul className="text-gray-600 space-y-2">
+              <li>• Native iOS and Android apps</li>
+              <li>• Cross-platform solutions</li>
+              <li>• UI/UX design</li>
+              <li>• App maintenance and updates</li>
+            </ul>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-lg">
-            <h3 className="text-xl font-semibold mb-4">Business Solutions</h3>
-            <p className="text-gray-600">Custom software development tailored to your business needs and objectives.</p>
+            <h3 className="text-xl font-semibold mb-4">Web Development</h3>
+            <ul className="text-gray-600 space-y-2">
+              <li>• Responsive websites</li>
+              <li>• E-commerce solutions</li>
+              <li>• Custom web applications</li>
+              <li>• CMS development</li>
+            </ul>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-lg">
-            <h3 className="text-xl font-semibold mb-4">IT Consulting</h3>
-            <p className="text-gray-600">Professional guidance and expertise for your technology decisions.</p>
+            <h3 className="text-xl font-semibold mb-4">Software Services</h3>
+            <ul className="text-gray-600 space-y-2">
+              <li>• Custom software development</li>
+              <li>• Enterprise solutions</li>
+              <li>• Cloud integration</li>
+              <li>• API development</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      {/* Freelancing Resources Section */}
+      <div className="bg-white py-16">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Freelancing Solutions</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-gray-50 p-6 rounded-lg">
+              <h3 className="text-xl font-semibold mb-4">For Businesses</h3>
+              <ul className="text-gray-600 space-y-2">
+                <li>• Access to skilled developers</li>
+                <li>• Flexible engagement models</li>
+                <li>• Project management support</li>
+                <li>• Quality assurance</li>
+              </ul>
+            </div>
+            <div className="bg-gray-50 p-6 rounded-lg">
+              <h3 className="text-xl font-semibold mb-4">For Freelancers</h3>
+              <ul className="text-gray-600 space-y-2">
+                <li>• Project opportunities</li>
+                <li>• Technical mentorship</li>
+                <li>• Resource access</li>
+                <li>• Career growth support</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
