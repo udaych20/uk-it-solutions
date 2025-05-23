@@ -97,13 +97,36 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <div className={`pt-16 bg-gradient-to-r ${darkMode ? 'from-blue-900 to-blue-700' : 'from-blue-600 to-blue-800'} text-white py-20`}>
-        <div className="container mx-auto px-4">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">UK IT Solutions</h1>
-          <p className="text-lg md:text-xl mb-8">Complete IT Solutions for Business Growth and Innovation</p>
-          <button className={`${darkMode ? 'bg-blue-500 text-white hover:bg-blue-600' : 'bg-white text-blue-600 hover:bg-blue-50'} px-6 py-3 rounded-lg font-semibold transition`}>
-            Get Started
-          </button>
+      <div className={`pt-16 bg-gradient-to-r ${darkMode ? 'from-blue-900 to-blue-700' : 'from-blue-600 to-blue-800'} text-white`}>
+        <div className="container mx-auto px-4 py-20">
+          <div className="max-w-3xl">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">Transforming Ideas into Digital Reality</h1>
+            <p className="text-lg md:text-xl mb-6 leading-relaxed">
+              UK IT Solutions is your trusted partner in digital transformation. We specialize in delivering cutting-edge technology solutions that help businesses thrive in the digital age. With our expertise in web development, mobile applications, and enterprise software, we transform your vision into powerful, scalable solutions.
+            </p>
+            <div className="space-y-4 text-gray-100 mb-8">
+              <p className="flex items-center">
+                <span className="mr-2">✓</span>
+                Custom software solutions tailored to your business needs
+              </p>
+              <p className="flex items-center">
+                <span className="mr-2">✓</span>
+                Expert team of developers and project managers
+              </p>
+              <p className="flex items-center">
+                <span className="mr-2">✓</span>
+                Comprehensive support for freelancers and businesses
+              </p>
+            </div>
+            <div className="flex flex-wrap gap-4">
+              <button className={`${darkMode ? 'bg-blue-500 hover:bg-blue-600' : 'bg-white text-blue-600 hover:bg-blue-50'} px-6 py-3 rounded-lg font-semibold transition`}>
+                Get Started
+              </button>
+              <button className="border-2 border-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition">
+                Learn More
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 
